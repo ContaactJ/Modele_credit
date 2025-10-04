@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+env/
+*.egg-info/
+
+# VS Code
+.vscode/
+
+# Données / sorties à ignorer à la racine
+*.csv
+*.sha256.txt
+*.pkl
+ph_outputs/
+Z-old/
+
+# EXCEPTIONS : on veut garder ces 3 fichiers CSV à la racine
+!baseline_h0.csv
+!coefficients.csv
+!feature_names.txt
